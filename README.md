@@ -10,11 +10,11 @@ Repo olduğu gibi kopyalanmalı.
 2. heroku.com'dan hesap açılır.
 3. Create New App bölümünden yeni bir uygulama açılır ve isimlendirilir.
 4. Deploy bölümünde yer alan "Deployment Method" bölümünden github seçilir.
-5. sales_prediction isminde github'ta yer alan repo ile eşleştirme yapılır.
+5. Model-Deployment isminde github'ta yer alan repo ile eşleştirme yapılır.
 6. manual deploy diyerek model deploy edilir.
 
 ## Dizindeki Dosyaların Tanımları
-data (klasor. icerisinde Advertising.csv dosyasi var)
+data (klasor. icerisinde Hitters.csv dosyasi var)
 
 templates (html template. icerisinde template.html dosyasi var)
 
@@ -31,4 +31,4 @@ requirements.txt (modüller ve versiyonlarının bilgisi. heroku tarafı için �
 
 
 
-*İstenildiği taktirde data klasörü, model.py dosyası alınmayabilir. (1. maddeyle çelişiyoruz evet). Neden? Çünkü pkl model nesnesi zaten elimizde. Bu model nesnesini oluşturmak için model.py ve data içerisindeki Advertising.csv dosyaları kullanıldı.
+*İstenildiği taktirde data klasörü, model.py dosyası alınmayabilir. (1. maddeyle çelişiyoruz evet). Neden? Çünkü pkl model nesnesi zaten elimizde. Bu model nesnesini oluşturmak için model.py ve data içerisindeki Hitters.csv dosyaları kullanıldı.
